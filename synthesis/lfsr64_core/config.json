@@ -1,0 +1,11 @@
+{
+  "DESIGN_NAME": "lfsr64_core",
+  "VERILOG_FILES": [
+    "dir::../../src/lfsr64_core.v"
+  ],
+  "CLOCK_PORT": "clk_i",
+  "CLOCK_PERIOD": 20.0,
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "SYNTH_STRATEGY": "AREA 0"
+}
