@@ -1,0 +1,3 @@
+# Statistical calculations use only the Python standard library.
+# Matplotlib is needed only for PNG plots.
+matplotlib>=3.7,<4
