@@ -1,0 +1,38 @@
+{
+  "DESIGN_NAME": "lfsr64_core",
+  "VERILOG_FILES": [
+    "dir::../../src/lfsr64_core.v"
+  ],
+
+  "CLOCK_PORT": "clk_i",
+  "CLOCK_PERIOD": 20.0,
+
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "SYNTH_STRATEGY": "AREA 0",
+
+  "FP_SIZING": "relative",
+  "FP_CORE_UTIL": 50,
+  "FP_ASPECT_RATIO": 1,
+  "PL_TARGET_DENSITY_PCT": 60,
+
+  "IO_DELAY_CONSTRAINT": 20,
+  "CLOCK_UNCERTAINTY_CONSTRAINT": 0.25,
+  "CLOCK_TRANSITION_CONSTRAINT": 0.15,
+  "MAX_TRANSITION_CONSTRAINT": 0.75,
+  "MAX_FANOUT_CONSTRAINT": 10,
+  "OUTPUT_CAP_LOAD": 33.442,
+  "TIME_DERATING_CONSTRAINT": 5,
+
+  "DEFAULT_CORNER": "nom_tt_025C_1v80",
+  "STA_CORNERS": [
+    "nom_tt_025C_1v80",
+    "nom_ss_100C_1v60",
+    "nom_ff_n40C_1v95"
+  ],
+  "TIMING_VIOLATION_CORNERS": [
+    "nom_tt_025C_1v80",
+    "nom_ss_100C_1v60",
+    "nom_ff_n40C_1v95"
+  ]
+}
